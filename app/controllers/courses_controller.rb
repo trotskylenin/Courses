@@ -1,5 +1,9 @@
 class CoursesController < ApplicationController
+  attr_reader :term
+
   def index
-    @courses = "None"
+    @term = "Python"
+    @courses = Coursera.for @term
   end
+
 end
