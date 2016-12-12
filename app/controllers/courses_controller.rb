@@ -2,7 +2,7 @@ class CoursesController < ApplicationController
   attr_reader :term
 
   def index
-    @term = "Python"
+    @term = params[:looking_for] || "Python"
     @courses = Coursera.for @term
   end
 

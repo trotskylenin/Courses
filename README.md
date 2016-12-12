@@ -9,7 +9,7 @@ Things you may want to cover:
 2.3.1
 
 * System dependencies
-Rails 5.0.0.1, DevTools, Bundler 1.13.6, HTTParty 0.13.5
+Rails 5.0.0.1, DevTools, Bundler 1.13.6, HTTParty 0.13.5, coffee-script-source 1.8.0
 
 * Configuration
 
